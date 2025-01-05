@@ -1,0 +1,13 @@
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.pro
+*.net
+*.xml
+*.log
+*-cache.lib
+*-rescue.lib
+*.zip
+sym-lib-table
+fp-lib-table
