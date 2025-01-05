@@ -1,4 +1,4 @@
-24412649034322700
+24417857345255737
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6670,6 +6670,13 @@ tag connect programming header pogo pins
 0
 14
 14
+Connector
+USB-SMD_USB-TYPE-C-020
+
+
+0
+20
+20
 Connector_AMASS
 AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
 Connector MR30 Horizontal PCB Female, https://www.tme.eu/Document/4a6895c4a2c7eddf355b391fd904cb53/MR30PW-FB.pdf
@@ -56979,6 +56986,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FelipeLib
+USB-SMD_USB-TYPE-C-020
+
+
+0
+20
+20
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -90607,6 +90621,13 @@ Winson QFN NoLead
 0
 8
 8
+Sensor
+XDCR_BH1750FVI-TR
+
+
+0
+6
+6
 Sensor_Audio
 CUI_CMC-4013-SMT
 Omnidirectional, -42dB, reflowable, electret condenser microphone https://www.cuidevices.com/product/resource/cmc-4013-smt-tr.pdf
