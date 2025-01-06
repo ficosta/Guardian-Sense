@@ -1,0 +1,150 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MLT-8530"
+   (description "Electro-Magnetic Buzzer (SMD Type)")
+   (family "ANA")
+   (package "MLT8530")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/szlcsc/1811182003_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf")
+   (attribute "Geometry.Height" "3mm")
+   (attribute "Manufacturer_Name" "Jiangsu Huaneng Elec")
+   (attribute "Manufacturer_Part_Number" "MLT-8530")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "MLT-8530")
+    (pin "DUMMY_PAD_1" 1 PS)
+    (pin "+LEAD" 2 PS)
+    (pin "-LEAD" 3 PS)
+    (pin "DUMMY_PAD_2" 4 PS)
+   )
+  )
+  (symbol "MLT-8530"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MLT8530"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.35 -4.35)
+      (pt 4.35 -4.35)
+      (pt 4.35 4.35)
+      (pt -4.35 4.35)
+      (pt -4.35 -4.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.35 1.75)
+      (pt -4.35 1.75)
+      (pt -4.35 -1.75)
+      (pt -4.35 -1.75)
+      (pt -4.35 1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 -4.35)
+      (pt 1.75 -4.35)
+      (pt 1.75 -4.35)
+      (pt -1.75 -4.35)
+      (pt -1.75 -4.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.35 -1.75)
+      (pt 4.35 -1.75)
+      (pt 4.35 1.75)
+      (pt 4.35 1.75)
+      (pt 4.35 -1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.75 4.35)
+      (pt -1.75 4.35)
+      (pt -1.75 4.35)
+      (pt 1.75 4.35)
+      (pt 1.75 4.35))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.7 6.65)
+      (pt 5.7 6.65)
+      (pt 5.7 -5.7)
+      (pt -5.7 -5.7)
+      (pt -5.7 6.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.6 5.6)
+      (arc (pt 3.600 5.600) (pt 3.600 5.550) (pt 3.700 5.650) (start 180.0) (sweep 180.0))
+      (pt 3.7 5.6)
+      (arc (pt 3.700 5.600) (pt 3.600 5.550) (pt 3.700 5.650) (start 180.0) (sweep .0))
+      (pt 3.6 5.6)
+      (arc (pt 3.600 5.600) (pt 3.600 5.550) (pt 3.700 5.650) (start 180.0) (sweep 180.0))
+      (pt 3.7 5.6))))
+   (leg 1 (pt 3.550 3.550) (padstack 0))
+   (leg 2 (pt -3.550 3.550) (padstack 0))
+   (leg 3 (pt -3.550 -3.550) (padstack 0))
+   (leg 4 (pt 3.550 -3.550) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 2.300))
+   )
+   (model "MLT-8530.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Jiangsu Huaneng Elec
+PartNumber=MLT-8530
+PartCategory=Loudspeaker or Buzzer
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2019-09-06 22:25:21
+Downloaded=2025-01-06 19:45:12
+3D=Y

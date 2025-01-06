@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MLT-8530
+D Electro-Magnetic Buzzer (SMD Type)
+K
+F https://datasheet.lcsc.com/szlcsc/1811182003_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf
+$ENDCMP
+#
+#End Doc Library

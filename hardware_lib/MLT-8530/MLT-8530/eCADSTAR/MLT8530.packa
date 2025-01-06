@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MLT-8530"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-06-22:25:21)
+    (mountForm default
+        (footprintRef "MLT8530")
+        (spec "System")
+    )
+)
